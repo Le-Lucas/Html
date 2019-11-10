@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css'  href='Css/primeiro1.css'>
+</head>
+<body>
+
+<style>
+    table{ border:2px solid black;}
+</style>
+	<img src = "imagens/bebe3.jpg"/>
+<h3>Informativos para Crianças</h3>	
+	<p>Crianças de 2 anos são alegres e se divertem muito quando tem ao seu dispor papel e lápis.
+Porém, nesta idade, os lápis devem ser estreitos.
+
+Por volta de 3 anos elas já podem apontá-los. Cuidados são necessários na hora de comprar os lápis e giz, a fim de que não contenham elementos danosos para sua saúde. Assim como, prestarmos atenção nos brinquedos, para que não tenham pontas que possam feri-las ou que tenham peças demasiado pequenas que tentem engolir.
+
+As crianças adoram desenhar e pintar, assim como também apresentar suas criações para pais e conhecidos.</p>
+As tintas de dedo são as preferidas das maiores. Com as mãos sobre o papel estão prontas para pintar alegremente. Papéis mais grossos são os indicados, como também maiores.
+
+Gostam também de construir suas próprias casinhas. Feitas de caixa de papelão com portas e janelas de abrir e fechar. Os móveis também podem ser construídos com caixinhas. Elas mesmas podem pintá-las.
+
+As crianças podem fazer colares de diversos materiais. Como modelar formas para pintá-las depois.
+No segundo ano de vida podem também começar a cantar. Cantem juntos! Elas aprendem rapidamente.
+
+De às crianças instrumentos musicais simples e fáceis de fazer manualmente. Esses podem ser uma tampa de panela, uma colher que proporciona ritmos como também os instrumentos rítmicos industrializados: xilofone, tambor, piano elétrico.
+
+<h3>Atividades criativas com crianças pequenas ate 4 Anos</h3>
+
+<p>Na primeira vez, é muito importante, que as crianças procurem trabalhar sozinhas, no entanto, sem serem forçadas a isso. Naturalmente você precisará estar de olho nelas, pois gostam de por coisas na boca. Especialmente quando trabalharem com balões, algodão, jornais e peças pequeninas. Não espere uma superprodução ou que os trabalhos sejam perfeitos e com bom acabamento.
+
+Ao praticarem atividades criativas, cada vez mais exercitando a coordenação motora, você verá que elas irão aprimorando suas técnicas e o resultado final do que criarem.
+
+A repetição de atividades é também muito importante para as crianças. O que para um adulto pode parecer repetitivo, para as crianças é sempre uma aventura e encontram novidades para experienciar.
+
+Experimente, depois de duas semanas que determinada atividade foi apresentada, colocar à disposição das crianças o mesmo tipo de material que já aplicou anteriormente e verá quanto progresso elas demonstrarão realizar.</p>
+<form action="">
+
+        <table id="primeira">
+               <h3> Tarefas indicadas para Crianças de 2 a 3 Anos </h3>
+                <td> Arrumar brinquedos e livros. </th>                   <th> <input type="checkbox" name="1" id="1" value="5" onclick='soma(this)'></td>
+                <th>Levar a roupa suja para a zona da lavandaria </th>   <th> <input type="checkbox" name="1" id="1" value="7" onclick='soma(this)'></th>
+                <th> Ajudar a alimentar os animais de estimação. </th>    <th> <input type="checkbox" name="1" id="1" value="10" onclick='soma(this)'></th>
+                <th> Limpar o pó  </th>                                   <th> <input type="checkbox" name="1" id="1" value="11" onclick='soma(this)'> </th> 
+                <th>Ajudar a limpar comida espalhada ou bebidas entornadas.</th>  <th><input type="checkbox" name="1" id="1" value="2" onclick='soma(this)'></th>
+        
+				<div id="res">
+					<p> <th><span id="resultado"></span></th></p>   
+				</div>
+        </table>
+	
+       
+        <script>
+                    var resultado=0;
+                
+                
+                    function soma(ff){
+                        if(ff.checked == true){
+                            resultado+=parseInt(ff.value);
+                            }
+                            else{
+                                resultado-=parseInt(ff.value);
+                            }
+                            console.log(resultado)
+                            document.getElementById("resultado").innerHTML = resultado;
+                    }
+                </script>
+        
+
+       
+
+
+   
+
+
+</body>
+</html>

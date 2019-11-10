@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blueviolet;
+
+}
+h1{
+    color: black
+}
+
+input[type='checkbox']{
+
+    display: none;
+
+}
+
+nav{
+    background-color:rgb(103, 16, 138,0.1);
+    width: 300px;
+    height:100%;
+    display: block;
+    position: absolute ;
+
+}
+
+ul{
+    padding: 40px;
+    display: block;
+    
+}
+
+ul:hover{
+    background-color: blueviolet;
+
+}
+
+a:hover{
+    color:white;
+}
+
+label{
+    display:   block;
+}
