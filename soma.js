@@ -1,4 +1,3 @@
- <script>
                     var resultado=0;
                 
                 
@@ -12,4 +11,3 @@
                             console.log(resultado)
                             document.getElementById("resultado").innerHTML = resultado;
                     }
-                </script>
